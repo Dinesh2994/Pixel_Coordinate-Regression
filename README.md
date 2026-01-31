@@ -24,3 +24,22 @@ Each input image is `50x50` pixels, with all pixels set to 0 except one pixel wi
 - Pixel values normalized to `[0, 1]`.
 - Coordinates of the white pixel extracted using NumPy.
 - Images reshaped to `(N, 50, 50, 1)` for CNN compatibility.
+
+
+## Files
+- `ML_Pixel_coordinate_regression.ipynb` → Main notebook
+- `DeepEdgeAI_ML_Assignment/` → Dataset folder
+- `requirements.txt` → Python dependencies
+
+
+Pixel_Coordinate-Regression/
+│
+├─ ML_Pixel_coordinate_regression.ipynb        # Your main Jupyter notebook
+├─ README.md                                   # (Optional) Project description
+├─ DeepEdgeAI_ML_Assignment/                  # Dataset folder
+│   ├─ 1.png                                  # Example dataset image files
+│   ├─ 2.png
+│   └─ ...                                    # Any other dataset image files
+├─ .gitignore                                  # (Optional) To ignore unwanted files
+└─ requirements.txt                            # (Optional) Python dependencies
+
